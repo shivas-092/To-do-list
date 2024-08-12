@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List Homepage</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body style=" background: linear-gradient(135deg, #197aaa, #4e085f);">
+    <header>
+        <div class="logoo">
+            
+            <img src="https://w7.pngwing.com/pngs/972/511/png-transparent-todo-sketch-note-list-tasks.png" alt="Logo">
+        </div>
+        <div class="nav-links">
+            <nav>
+                <ul class="links">
+                    <a href="#">Home </a>
+                    <a href="#">Tasks </a>
+                    <a href="#">Updates</a>
+                    <a href="#"> About Us</a>
+                    <!-- <a href="#"> Contact Us </a> -->
+                    <a href="#">Help</a>
+                    <a href="#">Login/Signup</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="info">
+            
+            <p>
+                A To-Do List helps you keep track of tasks you need to complete. It helps you stay organized by listing
+                and
+                prioritizing your tasks.
+            </p>
+        </div>
+        <div class="todo-app">
+            <h2>To-Do-List <img src="https://w7.pngwing.com/pngs/369/468/png-transparent-computer-icons-flat-design-checklist-sequence-of-numbers-web-design-logo-apartment.png" alt="icon"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your Task">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                 <li class="checked">Task 1</li>
+               <!-- <li>Task 2</li>
+               <li>Task 3</li>
+               <li>Task 4</li>
+               <li>Task 5</li>
+               <li>Task 6</li> -->
+            
+            </ul>
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
